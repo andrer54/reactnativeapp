@@ -1,7 +1,24 @@
-import React from "react";
+import * as React from 'react';
+import { View, Text, Button } from 'react-native';
+
+function LoginScreen({navigation}) {
+    return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text>Login Screen</Text>
+        <Button title='Ir para About' onPress={() => navigation.navigate('About')} />
+        <Button title='Ir para Home' onPress={() => navigation.navigate('Home')} />
+    </View>
+    );
+}
+
+export default LoginScreen;
+
+
+/*
+import * as React from 'react';
 import { SafeAreaView, View, Text, Image, StyleSheet, TextInput } from "react-native"
 
-export function Login(){
+export function LoginScreen({navigation}){
     
     const styles = StyleSheet.create({
         meuInput:{
@@ -22,3 +39,4 @@ export function Login(){
 
 
 }
+*/

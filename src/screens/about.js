@@ -5,6 +5,10 @@ function AboutScreen({navigation}) {
     return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>About Screen</Text>
+        <Text>Disciplina da universidade Estácio de Sá.</Text>
+        <Text>Aplicativo feito por André Costa.</Text>
+        
+        
         <Button title='Ir para Home' onPress={() => navigation.navigate('Home')} />
     </View>
     );
