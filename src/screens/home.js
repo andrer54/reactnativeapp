@@ -12,7 +12,7 @@ function HomeScreen({navigation}) {
     })
     return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
+        <Text style={{ color: 'blue', }}>Home Screen</Text>
         
         <Image
           style={styles.tinyLogo}
